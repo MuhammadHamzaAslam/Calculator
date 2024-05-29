@@ -1,25 +1,37 @@
 *{
     margin: 0px;
     padding: 0px;
-    background: #000;
+    /* background: #000; */
     color: white;
     font-size: 28px;
     font-family: sans-serif;
+}
+body{
+    background-image: radial-gradient(circle at 16% 83%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 50%,rgba(63, 63, 63,0.06) 50%, rgba(63, 63, 63,0.06) 100%),radial-gradient(circle at 68% 87%, rgba(66, 66, 66,0.06) 0%, rgba(66, 66, 66,0.06) 50%,rgba(105, 105, 105,0.06) 50%, rgba(105, 105, 105,0.06) 100%),radial-gradient(circle at 38% 50%, rgba(123, 123, 123,0.06) 0%, rgba(123, 123, 123,0.06) 50%,rgba(172, 172, 172,0.06) 50%, rgba(172, 172, 172,0.06) 100%),linear-gradient(90deg, hsl(18,0%,1%),hsl(18,0%,1%));
 }
 input{
     /* color: white; */
     /* border: 1px solid red; */
     border: none;
-    height: 80px;
+    height: 120px;
     width: 400px;
+    background-color: transparent;
+    padding-left: 20px !important;
+}
+#div{
+    border: 2px solid white;
+    width: 500px;
+    height: 99vh;
+    border-radius: 25px;
 }
 button{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border: none;
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
+    /* padding-top: 20px; */
 }   
 .sign{
     background-color: #FE9E0B;
